@@ -1,0 +1,26 @@
+.About-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .myDropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .About-dropdown  .myDropdown {
+    display: block;
+  }
+  
+  .About-dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .About-dropdown a:hover {
+    background-color: #f1f1f1;
+  }
+  
