@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    height: 37px;
+}
+.facebook-icon {
+margin-right: 15px;
+}
+.twitter-icon {
+margin-right: 15px;
+}
+.instagram-icon {
+margin-right: 35px;
+}
+.contact-icon {
+
+margin-right: 25px;
+font-size: 14px;
+color: blue;
+}
+.newmedia-icon {
+
+margin-right: 25px;
+font-size: 14px;
+color: blue;
+}
+.videos-icon {
+margin-right: 30px;
+font-size: 14px;
+color: blue;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1000px;
+    margin: 0;
+    width: 100%;
+}
